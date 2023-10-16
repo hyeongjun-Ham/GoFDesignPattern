@@ -1,4 +1,4 @@
-package org.example.strategy;
+package org.example.strategy.example1;
 
 public class IceLatteStrategy implements Coffee {
 
