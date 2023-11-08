@@ -2,12 +2,12 @@ package org.example.abstractfactory;
 
 public class LGComputerFactory implements ComputerFactory {
     @Override
-    public KeyBoard createKeyBoard() {
-        return new LGKeyBoard();
+    public void createKeyBoard() {
+        new LGKeyBoard();
     }
 
     @Override
-    public Mouse createMouse() {
-        return new LGMouse();
+    public void createMouse() {
+        new LGMouse();
     }
 }
